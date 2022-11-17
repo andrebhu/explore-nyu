@@ -1,0 +1,9 @@
+200 OK
+Last-Modified: Mon, 18 Mar 2019 08:54:03 GMT
+Content-Length: 730
+Retry-Count: 0
+Date: Thu, 17 Nov 2022 21:14:35 GMT
+Server: lighttpd/1.4.45
+Content-Type: text/html
+Accept-Ranges: bytes
+Etag: "95148321"

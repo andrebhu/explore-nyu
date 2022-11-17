@@ -1,0 +1,16 @@
+200 OK
+Pragma: no-cache
+Date: Fri, 30 Oct 1970 16:13:47 GMT
+Server: Crestron Webserver
+Retry-Count: 0
+Last-Modified: Mon, 12 Jul 2021 02:54:18 GMT
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src https: wss: data: 'unsafe-inline' 'unsafe-eval' blob:; frame-ancestors 'self'; img-src * data:; frame-src 'self'  blob:
+Content-Type: text/html
+Etag: "2462753850"
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Accept-Ranges: bytes
+Cache-Control: no-cache, no-store, must-revalidate, private
+Content-Length: 5227

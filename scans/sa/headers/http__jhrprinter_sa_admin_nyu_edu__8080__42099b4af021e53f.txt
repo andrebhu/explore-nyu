@@ -1,0 +1,11 @@
+200 OK
+Server: HP HTTP Server; HP HP Officejet Pro X476dw MFP - CN461A; Serial Number: CN45LIK064; Built:Thu May 28, 2020 04:49:52AM {LWP1CN2022AR}
+Content-Type: text/html
+Set-Cookie: sid=sde8af36d-f2cf130776a60832459790151727c4d6;path=/;
+X-Ua-Compatible: IE=edge
+X-Content-Type-Options: nosniff
+Content-Language: en
+Retry-Count: 0
+Last-Modified: Thu, 28 May 2020 04:49:52 GMT
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN

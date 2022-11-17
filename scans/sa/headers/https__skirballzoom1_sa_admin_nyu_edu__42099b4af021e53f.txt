@@ -1,0 +1,17 @@
+200 OK
+Content-Security-Policy: default-src https: wss: data: 'unsafe-inline' 'unsafe-eval' blob:; frame-ancestors 'self'; img-src * data:; frame-src 'self'  blob:
+Content-Length: 5227
+Date: Fri, 30 Oct 1970 16:13:51 GMT
+Last-Modified: Mon, 12 Jul 2021 02:54:18 GMT
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server: Crestron Webserver
+Etag: "2462753850"
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Set-Cookie: TRACKID=2750c0b997d64e51ad088987f2faa0d4; Path=/; Version=1; Secure; HttpOnly
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Content-Type: text/html
+Accept-Ranges: bytes
