@@ -1,0 +1,10 @@
+200 OK
+Date: Thu, 17 Nov 2022 16:56:59 GMT
+X-Powered-By: Express
+Etag: W/"b49b-VKbJTHtCsGGIr+fFw7loRn5UW1A"
+Set-Cookie: connect.sid=s%3A8xMdrVuWpncTlr7R2GyNoxZdIhom2NXJ.NMsczLh%2Fmcd0TLwbL8n30AVCCtKFlkdwkLBn96IK%2BM0; Path=/; HttpOnly
+Access-Control-Allow-Origin: *
+Server: nginx/1.12.2
+Content-Type: text/html; charset=utf-8
+Content-Length: 46235
+Retry-Count: 0

@@ -1,0 +1,22 @@
+200 OK
+Retry-Count: 0
+Last-Modified: Tue, 05 Jul 2022 08:14:45 GMT
+Engine: Rebrandly.redirect, version 2.1
+X-Frame-Options: DENY
+X-Amz-Cf-Id: gZ1N6XC-9wUapQZUjfRe8dyOnW6Hlm2HEZkrsWDlZnW9x7-2QWbrjw==
+X-Content-Type-Options: nosniff
+Server: AmazonS3
+Accept-Ranges: bytes
+X-Amz-Version-Id: fxAMz881WWHGTyp1_Q55Qn.iuLJOqR1n
+X-Amz-Server-Side-Encryption: AES256
+Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests; object-src 'none'; script-src 'sha256-7/fy7EjXUskn9MLHbin/b0A7LQ32mACPQ2SdNj/O/vA=' 'unsafe-inline'; require-trusted-types-for 'script';
+Age: 32829
+Etag: "de14370c4b906cd8038a7dddca2130cb"
+Strict-Transport-Security: max-age=31536000
+Content-Length: 3763
+Via: 1.1 c0cfe76b9184c0fbfe32c29e4d409dc6.cloudfront.net (CloudFront)
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: IAD55-P5
+X-Xss-Protection: 1; mode=block
+Date: Thu, 17 Nov 2022 07:49:58 GMT
+Content-Type: text/html

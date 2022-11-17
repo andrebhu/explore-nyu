@@ -1,0 +1,21 @@
+200 OK
+X-Cache-Hits: 1
+Vary: Accept-Encoding
+Last-Modified: Tue, 07 Jul 2020 16:28:11 GMT
+Etag: W/"5f04a29b-11f8"
+Accept-Ranges: bytes
+Via: 1.1 varnish
+X-Proxy-Cache: MISS
+X-Timer: S1668704237.237383,VS0,VE2
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+X-Github-Request-Id: 3C00:948D:C9812F:10AC442:637667DC
+X-Served-By: cache-lga21965-LGA
+X-Cache: HIT
+Age: 17
+X-Fastly-Request-Id: 959ed1cb3d2aea976a73dd00a08c43eb876dbb9c
+Server: GitHub.com
+Access-Control-Allow-Origin: *
+Expires: Thu, 17 Nov 2022 17:07:00 GMT
+Cache-Control: max-age=600
+Date: Thu, 17 Nov 2022 16:57:17 GMT

@@ -1,0 +1,24 @@
+200 OK
+Via: 1.1 varnish-v4
+Cache-Tags: MISS
+Cache-Control: max-age=31536000, public
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Varnish: 417982461
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+X-Ua-Compatible: IE=edge
+X-Frame-Options: SAMEORIGIN
+Etag: "1668699908"
+X-Generator: Drupal 8 (https://www.drupal.org)
+Server: nginx/1.12.2
+X-Drupal-Dynamic-Cache: MISS
+Link: <http://engineering.nyu.edu/research>; rel="canonical" <http://engineering.nyu.edu/research>; rel="revision"
+Last-Modified: Thu, 17 Nov 2022 15:45:08 GMT
+Vary: Cookie
+Retry-Count: 0
+Date: Thu, 17 Nov 2022 16:57:06 GMT
+X-Powered-By: PHP/7.4.25
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+Age: 0

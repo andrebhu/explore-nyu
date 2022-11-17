@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Danny Yuxing Huang is an Assistant Professor at New York University Tandon School of Engineering.">
+    <meta name="author" content="Danny Yuxing Huang">
+    <link rel="icon" href="images/tandon-favicon.ico">
+
+    <title>NYU mLab</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30ac836641.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      /* Modify the background color */
+
+      .navbar-custom {
+          background-color: #4a126f;
+      }
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text {
+          color:white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">NYU mLab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#presentations">Talks</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://engineering.nyu.edu/" id="shield-link">
+                <img src="images/tandon-logo.png" height="35" id="shield-img" alt="NYU Tandon School of Engineering"/>
+              </a>
+            </li>
+          </ul>
+        </div> <!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Photo and Overview  -->
+      <div class="row section">
+        <div class="col-xs-12 col-sm-2">
+          <img src="images/danny.png" class="img-responsive img-rounded" style="border-radius:50%;" id="photo-vert" alt="Profile Photo"/>
+        </div>
+
+        <div class="col-xs-12 col-sm-10">
+          <img src="images/danny.png" class="img-responsive img-rounded" style="border-radius:50%;" id="photo-horz" alt="Profile Photo"/>
+          <h1>Danny Yuxing Huang, PhD</h1>
+          <hr />
+          <p>Assistant Professor in <a href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">Electrical &amp; Computer Engineering Dept</a> and <a href="https://cusp.nyu.edu/">Center for Urban Science + Progress</a> at New York University's <a href="https://engineering.nyu.edu/">Tandon School of Engineering</a>. He leads the NYU <b>mLab</b>.</p>
+          <p><i class="fas fa-paw"></i> If you are interested in working together (especially at the intersection of HCI, security, and privacy), <a href="email.txt">join</a> us!</p>
+          <hr />
+          <p>
+              <a href="email.txt"><i class="fas fa-envelope-open"></i> Email</a> &nbsp;
+              <a href="https://twitter.com/danny_y_huang"><i class="fab fa-twitter"></i> Twitter</a> &nbsp;
+              <a href="https://www.linkedin.com/in/dannyyhuang"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;
+              <a href="https://scholar.google.com/citations?user=B-Zb3joAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          </p>
+
+        </div>
+      </div> <!-- /photo and overview -->
+
+      <br />
+      <br />
+      <br />
+
+      <!-- interests section -->
+      <div class="row nav-target" id="interests">
+        <div class="col-xs-12" >
+          <h2 class="section-title-first"><i class="fas fa-globe"></i> Research at mLab</h2>
+          <br />
+          <p>
+            We are broadly interested in real-world security and privacy threats in healthcare and consumer technologies (see <a href="https://www.youtube.com/watch?v=zaxiGcWaZBM">this video</a>). We build systems to <b>measure</b> these threats
+            at scale. Our techniques are heavily based on empirical <b>measurements</b>&mdash;hence our name, NYU <b>m</b>Lab (also short for <a href="#momo">momoLab</a>).
+          </p>
+
+          <p>
+            Our past research covers two broad areas:
+          </p>
+
+          <ul>
+            <li>Internet-of-Things: We built <a
+            href="https://iotinspector.org">IoT Inspector</a>, an open-source tool
+            for non-technical consumers to assess the
+            security and privacy of their smart home IoT devices.</li>
+            <li>Online Abuses and Crimes: We developed new methods to trace
+            millions of dollars worth of cryptocurrency transactions of
+            criminals, such as <a href="static/oakland-18.pdf">ransomware</a>. </li>
+          </ul>
+
+          <p>
+            We were contacted by various government agencies&mdash;e.g.,
+            <b>FBI</b>, <b>FTC</b>, and <b>New York State Attorney
+            General</b>&mdash;to help with the investigations of a number of
+            security and privacy threats related to our research.  Also, our work
+            was covered in multiple media outlets. Examples include:
+          </p>
+
+          <p class="paragraph-end" style="text-align:center;">
+
+
+            <a href="https://www.nytimes.com/2020/01/07/opinion/location-tracking-privacy.html"><img src="images/nytimes-logo.png" height="21" alt="NYTimes Logo" /></a> &nbsp; &nbsp; &nbsp;
+
+            <a href="https://www.sciencefriday.com/segments/smart-tv-roku-spying/"><img src="images/npr-logo.png" height="21" alt="NPR Logo" /></a>  &nbsp; &nbsp; &nbsp;
+
+            <a href="https://www.washingtonpost.com/technology/2019/09/18/you-watch-tv-your-tv-watches-back/?noredirect=on"><img src="images/wapost-logo.jpg" height="21" alt="WaPost Logo" /></a> &nbsp; &nbsp; &nbsp;
+
+            <a href="http://www.bbc.co.uk/programmes/w3cstxkw"><img src="images/bbc-logo.gif" height="21" alt="BBC Logo" /></a> &nbsp; &nbsp; &nbsp;
+
+            <a href="https://techcrunch.com/2019/04/13/spy-on-your-smart-home-with-this-open-source-research-tool/"><img src="images/techcrunch-logo.png" height="21" alt="TechCrunch Logo" /></a>
+
+
+          </p>
+
+        </div>
+      </div> <!-- /interests  -->
+
+
+
+
+
+
+
+      <br />
+      <br />
+      <hr />
+
+
+
+
+      <!-- publications section -->
+      <div class="row nav-target" id="publications">
+        <div class="col-xs-12">
+
+
+          <h2 class="section-title"><i class="far fa-newspaper"></i> Publications</h2>
+          <br />
+
+          <h3 class="pub-type text-center">Internet-of-Things (IoT) Security and Privacy</h3>
+
+
+
+
+          <div class="pub pub-first">
+            <span class="badge badge-primary">CHI</span>
+           <a href="https://programs.sigchi.org/chi/2022/program/content/69007">
+             <span class=pub-title>"It would probably turn into a social faux-pas": Users' and Bystanders' Preferences of Privacy Awareness Mechanisms in Smart Homes</span>
+          </a><br>
+           <span class="pub-authors">Parth Thakkar, Shijing He, Shiyu Xu, <u>Danny Yuxing Huang</u>, Yaxing Yao</span> <br />
+           <span class="pub-venue">ACM SIG CHI (Special Interest Group on Computer–Human Interaction).</span> 2022.
+
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#CHI2022" aria-expanded="false" aria-controls="CHI2022">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="CHI2022">
+             <div class="well">
+
+               <p>
+                <b>Abstract</b>:
+                The opaque data practices in smart home devices have raised significant privacy concerns for smart home users and bystanders. One way to learn about the data practices is through privacy-related notifications. However, how to deliver these notifications to users and bystanders and increase their awareness of data practices is not clear. We surveyed 136 users and 123 bystanders to understand their preferences of receiving privacy-related notifications in smart homes. We further collected their responses to four mechanisms that improve privacy awareness (e.g., Data Dashboard) as well as their selections of mechanisms in four different scenarios (e.g., friend visiting ). Our results showed the pros and cons of each privacy awareness mechanism, e.g., Data Dashboard can help reduce bystanders' dependence on users. We also found some unique benefits of each mechanism (e.g., Ambient Light could provide unobtrusive privacy awareness). We summarized four key design dimensions for future privacy awareness mechanisms design.
+
+               </p>
+             </div>
+           </div>
+          </div>
+
+
+          <div class="pub">
+            <span class="badge badge-primary">TIOT</span>
+           <a href="https://arxiv.org/abs/2102.03382">
+             <span class=pub-title>SkillBot: Identifying Risky Content for Children in Alexa Skills</span>
+          </a><br>
+           <span class="pub-authors">Tu Le, <u>Danny Yuxing Huang</u>, Noah Apthorpe, Yuan Tian</span> <br />
+           <span class="pub-venue">ACM Transactions on Internet Technology. </span> 2022.
+
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractSkillBot" aria-expanded="false" aria-controls="AbstractSkillBot">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractSkillBot">
+             <div class="well">
+
+               <p>
+                <b>Abstract</b>:
+                Many households include children who use voice personal assistants (VPA) such as Amazon Alexa. Children benefit from the rich functionalities of VPAs and third-party apps but are also exposed to new risks in the VPA ecosystem (e.g., inappropriate content or information collection). To study the risks VPAs pose to children, we build a Natural Language Processing (NLP)-based system to automatically interact with VPA apps and analyze the resulting conversations to identify contents risky to children. We identify 28 child-directed apps with risky contents and maintain a growing dataset of 31,966 non-overlapping app behaviors collected from 3,434 Alexa apps. Our findings suggest that although voice apps designed for children are subject to more policy requirements and intensive vetting, children are still vulnerable to risky content. We then conduct a user study showing that parents are more concerned about VPA apps with inappropriate content than those that ask for personal information, but many parents are not aware that risky apps of either type exist. Finally, we identify a new threat to users of VPA apps: confounding utterances, or voice commands shared by multiple apps that may cause a user to invoke or interact with a different app than intended. We identify 4,487 confounding utterances, including 581 shared by child-directed and non-child-directed apps.
+               </p>
+             </div>
+           </div>
+          </div>
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">TIOT</span>
+           <a href="static/djmajor-alexa-paper.pdf">
+             <span class=pub-title>Alexa, Who Am I Speaking To?
+              Understanding Users’ Ability to Identify Third-Party Apps on Amazon Alexa</span>
+          </a><br>
+           <span class="pub-authors">David Major, <u>Danny Yuxing Huang</u>, Marshini Chetty, Nick Feamster</span> <br />
+           <span class="pub-venue">ACM Transactions on Internet Technology. </span> 2021.
+
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#DavidMajorAlexa" aria-expanded="false" aria-controls="DavidMajorAlexa">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="DavidMajorAlexa">
+             <div class="well">
+              <p><b>See also</b>:
+                <a href="https://sites.google.com/view/alexawhoamispeakingto/">Project Website</a> /
+                <a href="https://dl.acm.org/doi/abs/10.1145/3446389">Official ACM Page</a>
+              </p>
+
+               <p>
+                <b>Abstract</b>:
+                Voice User Interfaces (VUIs) are increasingly common on many Internet of Things (IoT) devices. Amazon has the highest share in the voice-assistant market and supports more than 47,000 third-party applications (“skills”) on its Alexa platform to extend functionality. We study how Alexa’s design decisions when integrating these skills may create unintended security and privacy risks. Our survey of 237 participants finds that users do not understand these skills are often operated by third parties. Additionally, people often confuse third-party skills with native Alexa functions. Finally, they are unaware of the functions that the native Alexa system supports. These misunderstandings may allow attackers to develop third-party skills that operate without users’ knowledge, or even to masquerade as native Alexa functions, posing new threats to user security and privacy. Based on our survey data, we make design recommendations, including visual and audio feedback, to help users distinguish native and third-party skills.
+               </p>
+             </div>
+           </div>
+          </div>
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">IMWUT</span>
+           <a href="static/ubicomp-20.pdf">
+             <span class=pub-title>IoT Inspector: Crowdsourcing Labeled Network Traffic from Smart Home Devices at Scale</span>
+          </a><br>
+           <span class="pub-authors"><u>Danny Yuxing Huang</u>, Noah Apthorpe, Gunes Acar, Frank Li, Nick Feamster</span> <br />
+           <span class="pub-venue">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT / Ubicomp).</span> 2020.
+
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractInspector" aria-expanded="false" aria-controls="AbstractInspector">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractInspector">
+             <div class="well">
+              <p><b>See also</b>:
+                <a href="https://iotinspector.org">Project Website</a> /
+                <a href="https://www.youtube.com/watch?v=-uzG3B1Z7J8">Video Presentation</a> /
+                <a href="https://www.nytimes.com/2020/01/07/opinion/location-tracking-privacy.html">New York Times</a> /
+                <a href="https://www.washingtonpost.com/technology/2019/09/18/you-watch-tv-your-tv-watches-back/?noredirect=on">Washington Post</a> /
+                <a href="https://techcrunch.com/2019/04/13/spy-on-your-smart-home-with-this-open-source-research-tool/">TechCrunch</a> /
+		<a href="https://www.sciencefriday.com/segments/smart-tv-roku-spying/">National Public Radio</a>
+              </p>
+
+               <p>
+                <b>Abstract</b>:
+                The proliferation of smart home devices has created new opportunities for empirical research in ubiquitous computing, ranging from security and privacy to personal health. Yet, data from smart home deployments are hard to come by, and existing empirical studies of smart home devices typically involve only a small number of devices in lab settings. To contribute to data-driven smart home research, we crowdsource the largest known dataset of labeled network traffic from smart home devices from within real-world home networks. To do so, we developed and released IoT Inspector, an open-source tool that allows users to observe the traffic from smart home devices on their own home networks. Between April 10, 2019 and January 21, 2020, 5,404 users installed IoT Inspector, allowing us to collect labeled network traffic from 54,094 smart home devices. At the time of publication, IoT Inspector is still gaining users and collecting data from more devices. We demonstrate how this data enables new research into smart homes through two case studies focused on security and privacy. First, we find that many device vendors, including Amazon and Google, use outdated TLS versions and send unencrypted traffic, sometimes to advertising and tracking services. Second, we discover that smart TVs from at least 10 vendors communicated with advertising and tracking services. Finally, we find widespread cross-border communications, sometimes unencrypted, between devices and Internet services that are located in countries with potentially poor privacy practices. To facilitate future reproducible research in smart homes, we will release the IoT Inspector data to the public.
+               </p>
+             </div>
+           </div>
+          </div>
+
+
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">CCS</span>
+            <a href="static/ccs-19.pdf" >
+              <span class=pub-title>
+                Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices
+              </span>
+           </a><br>
+           <span class="pub-authors">
+              Hooman Mohajeri Moghaddam,
+              Gunes Acar,
+              Arunesh Mathur,
+              Ben Burgess,
+              <u>Danny Yuxing Huang</u>,
+              Prateek Mittal,
+              Nick Feamster,
+              Arvind Narayanan,
+              Edward Felten
+           </span><br>
+           <i class="fas fa-trophy"></i>
+           <span>Runner up for the <a href="https://petsymposium.org/award/winners.php">2021 Caspar Bowden Award</a> for Outstanding Research in Privacy Enhancing Technologies</span><br />
+           <span class="pub-venue">ACM Conference on Computer and Communications Security (CCS).</span> 2019.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractSmartTV" aria-expanded="false" aria-controls="AbstractSmartTV">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractSmartTV">
+             <div class="well">
+              <p>
+                <b>See also</b>:
+                <a href="https://freedom-to-tinker.com/2019/09/18/watching-you-watch-the-tracking-ecosystem-of-over-the-top-tv-streaming-devices/">Blog Post</a> /
+		<a href="https://tv-watches-you.princeton.edu">Project Website</a> /
+		<a href="https://www.nytimes.com/2019/10/25/business/media/streaming-data-collection-privacy.html">New York Times</a> /
+                <a href="https://www.wired.com/story/roku-fire-tv-channels-ad-tracking/">Wired</a> /
+		<a href="https://www.sciencefriday.com/segments/smart-tv-roku-spying/">National Public Radio</a>
+              </p>
+              <p>
+                <b>Abstract</b>:
+                The number of Internet connected TV devices has grown significantly in recent years, especially Over-the-Top ("OTT") streaming devices, such as Roku TV and Amazon Fire TV .OTT devices offer an alternative to multi-channel television subscription services and are often monetized through behavioral advertising.To shed light on the privacy practices of such platforms, we developed a system that can automatically download OTT apps (also known as channels) and interact with them while intercepting the network traffic and perform best-effort TLS interception.  We used this smart crawler to visit more than 2,000 channels on two popular OTT platforms, namely Roku and Amazon Fire TV. Our results show that tracking is pervasive on both OTT platforms and traffic to known trackers is present on 69% of Roku channels and 89% of Amazon Fire TV channels. We also discover widespread practice  of collecting and transmitting unique identifiers including WiFi MAC addresses and SSIDs. Moreover, a large number of trackers send data over unencrypted channels, potentially exposing it to malicious eavesdroppers. Finally we show that the countermeasures available for these devices, such as limiting ad tracking options and adblocking, are practically ineffective. Based on our findings, we make recommendations for researchers, regulators, policy makers, platform and app developers.
+              </p>
+           </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">PETS</span>
+            <a href="static/pets-2019.pdf" >
+              <span class=pub-title>Keeping the Smart Home Private with Smart(er) IoT Traffic Shaping</span>
+           </a><br>
+           <span class="pub-authors">Noah Apthorpe, <u>Danny Yuxing Huang</u>, Dillon Reisman, Arvind Narayanan, Nick Feamster</span><br>
+           <span class="pub-venue">Proceedings on Privacy Enhancing Technologies Symposium (PETS).</span> 2019.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#STPAbstract" aria-expanded="false" aria-controls="STPAbstract">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="STPAbstract">
+             <div class="well">
+              <p>
+                <b>See also</b>:
+                <a href="https://freedom-to-tinker.com/2018/04/23/announcing-iot-inspector-a-tool-to-study-smart-home-iot-device-behavior/">Blog Post</a>
+              </p>
+              <p>
+                <b>Abstract</b>:
+               The proliferation of smart home Internet of Things (IoT) devices presents unprecedented challenges for preserving privacy within the home.
+               In this paper, we demonstrate that a passive network observer (e.g., an Internet service provider) can infer private in-home activities by analyzing Internet traffic from commercially
+               available smart home devices <i>even when the devices use end-to-end transport-layer encryption</i>.
+               We evaluate common approaches for defending against these types of traffic analysis attacks, including firewalls, virtual private networks, and independent link padding,
+               and find that none sufficiently conceal user activities with reasonable data overhead.
+               We develop a new defense, "stochastic traffic padding" (STP), that makes it difficult for a passive network adversary to reliably distinguish genuine user activities from generated traffic patterns designed to look like user interactions.
+               Our analysis provides a theoretical bound on an adversary's ability to accurately detect genuine user activities as a function of the amount of additional cover traffic generated by the defense technique.
+             </p>
+              </div>
+           </div>
+          </div>
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">WWW</span>
+            <a href="https://arxiv.org/pdf/1902.10008.pdf">
+              <span class=pub-title>Selling a Single Item with Negative Externalities (a case for IoT regulation)</span>
+           </a><br>
+           <span class="pub-authors">Tithi Chattopadhyay, Nick Feamster, Matheus Xavier Ferreira, <u>Danny Yuxing Huang</u>, S. Matthew Weinberg (alphabetical order)</span><br>
+           <span class="pub-venue">International World Wide Web Conference (WWW).</span> 2019.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractIoTRegulation" aria-expanded="false" aria-controls="AbstractIoTRegulation">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractIoTRegulation">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="https://freedom-to-tinker.com/2019/08/13/selling-a-single-item-with-negative-externality/">Blog Post</a>
+                </p>
+                <p><b>Abstract</b>: We consider the problem of regulating products with negative externalities to a third party that is
+                neither the buyer nor the seller, but where both the buyer and seller can take steps to mitigate the
+                externality. The motivating example to have in mind is the sale of Internet-of-Things (IoT) devices,
+                many of which have historically been compromised for DDoS attacks that disrupted Internet-wide
+                services such as Twitter Brian Krebs (2017); Nicky Woolf (2016). Neither the buyer (i.e., consumers)
+                nor seller (i.e., IoT manufacturers) was known to suffer from the attack, but both have the power to
+                expend effort to secure their devices. We consider a regulator who regulates payments (via fines if
+                the device is compromised, or market prices directly), or the product directly via mandatory security
+                requirements. </p>
+                <p>Both regulations come at a cost—implementing security requirements increases production costs,
+                and the existence of fines decreases consumers’ values—thereby reducing the seller’s profits. The
+                focus of this paper is to understand the efficiency of various regulatory policies. That is, policy A is
+                more efficient than policy B if A more successfully minimizes negatives externalities, while both A
+                and B reduce seller’s profits equally.</p>
+                <p>We develop a simple model to capture the impact of regulatory policies on a buyer’s behavior. In
+                this model, we show that for homogeneous markets—where the buyer’s ability to follow security
+                practices is always high or always low—the optimal (externality-minimizing for a given profit
+                constraint) regulatory policy need regulate only payments or production. In arbitrary markets, by
+                contrast, we show that while the optimal policy may require regulating both aspects, there is always
+                an approximately optimal policy which regulates just one.</p>
+              </div>
+           </div>
+          </div>
+
+
+
+
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">Workshop</span>
+           <a href="static/sigcomm-iot-18.pdf">
+             <span class=pub-title>Fast Web-based Attacks to Discover and Control IoT Devices</span>
+          </a><br>
+           <span class="pub-authors">Gunes Acar, <u>Danny Yuxing Huang</u>, Frank Li, Arvind Narayanan, Nick Feamster</span><br>
+           <span class="pub-venue">ACM SIGCOMM Workshop on IoT Security and Privacy (IoT S&P).</span> 2018
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractRebinding" aria-expanded="false" aria-controls="AbstractRebinding">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractRebinding">
+             <div class="well">
+              <p><b>See also</b>:
+                <a href="https://freedom-to-tinker.com/2018/06/21/fast-web-based-attacks-to-discover-and-control-iot-devices/">Blog Post</a> /
+                <a href="https://conferences.sigcomm.org/sigcomm/2018/files/slides/iot/paper_3.1.pdf">Slides</a> /
+                <a href="https://www.youtube.com/watch?v=KsleJIj4XB8">Demo Video</a>
+              </p>
+
+               <p>
+                <b>Abstract</b>:
+                In this paper, we present two web-based attacks against local IoT devices that
+                any malicious web page third-party script can perform, even when the devices are
+                behind NATs. In our attack scenario, a victim visits the attacker’s website,
+                which contains a malicious script that communicates with IoT devices on the
+                local network that have open HTTP servers. We show how the malicious script can
+                circumvent the same-origin policy by exploiting error messages on the HTML5
+                MediaError interface or by carrying out DNS rebinding attacks. We demonstrate
+                that the attacker can gather sensitive information from the devices (e.g.,
+                unique device identifiers and precise geolocation), track and profile the owners
+                to serve ads, or control the devices by playing arbitrary videos and rebooting.
+                We propose potential countermeasures to our attacks that users, browsers, DNS
+                providers, and IoT vendors can implement.
+
+               </p>
+             </div>
+           </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <br />
+
+          <h3 class="pub-type text-center">Online Abuses and Crimes</h3>
+
+          <div class="pub pub-first">
+            <span class="badge badge-primary">S&P</span>
+            <a href="static/oakland-18.pdf">
+              <span class=pub-title>Tracking Ransomware End-to-End</span>
+           </a><br>
+           <span class="pub-authors"><u>Danny Yuxing Huang</u>, Maxwell Matthaios Aliapoulios, Vector Guo Li, Luca Invernizzi, Elie Bursztein, Kylie McRoberts, Jonathan Levin, Kirill Levchenko, Alex C. Snoeren, Damon McCoy</span><br>
+           <span class="pub-venue">IEEE Security and Privacy Conference (S&P).</span> 2018.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractRansomware" aria-expanded="false" aria-controls="AbstractRansomware">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractRansomware">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="https://www.youtube.com/watch?v=H5bPmzsVLF8">Talk Video</a> /
+                  <a href="static/oakland-18-slides.pdf">Slides</a> /
+                  <a href="ransomware-public-data/">Dataset</a> /
+                  <a href="https://blog.acolyer.org/2018/03/23/tracking-ransomware-end-to-end/">Paper Summary</a> /
+                  <a href="https://www.bbc.com/news/technology-40737060">BBC</a> /
+                  <a href="https://www.theverge.com/2017/7/25/16023920/ransomware-statistics-locky-cerber-google-research">The Verge</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                    Ransomware is a type of malware that encrypts the files of
+                    infected hosts and demands payment, often in a
+                    cryptocurrency such as Bitcoin. In this paper, we create a
+                    measurement framework that we use to perform a large-scale,
+                    two-year, end-to-end measurement of ransomware payments,
+                    victims, and operators. By combining an array of data
+                    sources, including ransomware binaries, seed ransom
+                    payments, victim telemetry from infections, and a large
+                    database of Bitcoin addresses annotated with their owners,
+                    we sketch the outlines of this burgeoning ecosystem and
+                    associated third-party infrastructure. In particular, we
+                    trace the financial transactions, from the moment victims
+                    acquire bitcoins, to when ransomware operators cash them
+                    out. We find that many ransomware operators cashed out using
+                    BTC-e, a now-defunct Bitcoin exchange. In total we are able
+                    to track over $16 million in likely ransom payments made by
+                    19,750 potential victims during a two-year period. While our
+                    study focuses on ransomware, our methods are potentially
+                    applicable to other cybercriminal operations that have
+                    similarly adopted Bitcoin as their payment channel.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">FC</span>
+            <a href="http://fc18.ifca.ai/preproceedings/12.pdf">
+              <span class=pub-title>Estimating Profitability of Alternative Crypto-currencies (Altcoins)</span>
+           </a><br>
+           <span class="pub-authors"><u>Danny Yuxing Huang</u>, Kirill Levchenko, Alex C. Snoeren</span><br>
+           <span class="pub-venue">Financial Cryptography and Data Security (FC).</span> 2018.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractAltcoin" aria-expanded="false" aria-controls="AbstractAltcoin">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractAltcoin">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="https://www.sysnet.ucsd.edu/~dhuang/altcoin-report/altcoin_tech_report.pdf">Tech Report</a> /
+                  <a href="static/fc18-talk.pdf">Slides</a> /
+                  <a href="https://www.youtube.com/watch?v=OSXne5pDg3A">Talk Video</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                    Digital currencies have flourished in recent years, buoyed by the tremendous success of Bitcoin. These blockchain-based currencies, called altcoins, are associated with a few thousand to millions of dollars of market capitalization. Altcoins have attracted enthusiasts who enter the market by mining or buying them, but the risks and rewards could potentially be significant, especially when the market is volatile. In this work, we estimate the potential profitability of mining and speculating 18 altcoins using real-world blockchain and trade data. Using opportunity cost as a metric, we estimate the mining cost for an altcoin with respect to a more popular but stable coin. For every dollar invested in mining or buying a coin, we compute the potential returns under various conditions, such as time of market entry and hold positions. While some coins offer the potential for spectacular returns, many follow a simple bubble-and-crash scenario, which highlights the extreme risks—and potential gains—in altcoin markets.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+          <div class="pub">
+            <span class="badge badge-primary">KDD</span>
+            <a href="static/kdd17-backpage.pdf">
+              <span class=pub-title>Backpage and Bitcoin: Uncovering Human Traffickers</span>
+           </a><br>
+           <span class="pub-authors">Rebecca S. Portnoff, <u>Danny Yuxing Huang</u>, Periwinkle Doerfler, Sadia Afroz, Damon McCoy</span><br>
+           <span class="pub-venue">ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD).</span> 2017.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractBackpage" aria-expanded="false" aria-controls="AbstractBackpage">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractBackpage">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="https://www.youtube.com/watch?v=Tyf4nimS5vc">Video</a> /
+                  <a href="static/backpage_public_code.ipynb">Code</a> /
+                  <a href="https://www.reuters.com/article/us-usa-trafficking-ads-idUSKCN1AX2RD">Reuters</a> /
+                  <a href="http://fortune.com/2017/08/25/bitcoin-ai-sex-trafficking/">Fortune</a> /
+                  <a href="http://www.bbc.co.uk/programmes/w3cstxkw">BBC</a> /
+                  <a href="https://www.fastcompany.com/40463805/researchers-say-bitcoin-data-could-help-spot-sex-traffickers">Fast Company</a> /
+                  <a href="https://www.newscientist.com/article/2145355-ai-uses-bitcoin-trail-to-find-and-help-sex-trafficking-victims/">New Scientist</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                    Sites for online classified ads selling sex are widely used by human traffickers to support their pernicious business. The sheer quantity of ads makes manual exploration and analysis unscalable. In addition, discerning whether an ad is advertising a trafficked victim or a independent sex worker is a very difficult task. Very little concrete ground truth (i.e., ads definitively known to be posted by a trafficker) exists in this space. In this work, we develop tools and techniques that can be used separately and in conjunction to group sex ads by their true owner (and not the claimed author in the ad). Specifically, we develop a machine learning classifier that uses stylometry to distinguish between ads posted by the same vs. different authors with 96% accuracy. We also design a linking technique that takes advantage of leakages from the Bitcoin mempool, blockchain and sex ad site, to link a subset of sex ads to Bitcoin public wallets and transactions. Finally, we demonstrate via a 4-week proof of concept using Backpage as the sex ad site, how an analyst can use these automated approaches to potentially find human traffickers.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">WWW</span>
+            <a href="static/www17-cr.pdf">
+              <span class=pub-title>Pinning Down Abuse on Google Maps</span>
+           </a><br>
+           <span class="pub-authors"><u>Danny Yuxing Huang</u>, Doug Grundman, Kurt Thomas, Abhishek Kumar, Elie Bursztein, Kirill Levchenko, Alex C. Snoeren</span><br>
+           <span class="pub-venue">International World Wide Web Conference (WWW).</span> 2017.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractGoogleMaps" aria-expanded="false" aria-controls="AbstractGoogleMaps">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractGoogleMaps">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="https://research.googleblog.com/2017/04/keeping-fake-listings-off-google-maps.html">Blog Post</a> /
+                  <a href="static/www17-slides.pdf">Slides</a> /
+                  <a href="http://fortune.com/2017/04/07/google-scammers-maps/">Fortune</a> /
+                  <a href="http://www.kpbs.org/news/2017/apr/12/san-diego-computer-scientists-help-crack-down-goog/">National Public Radio</a> /
+                  <a href="https://www.thetimes.co.uk/article/google-maps-plagued-by-fake-listings-t0zcwbhm0">The Times</a> /
+                  <a href="https://www.newscientist.com/article/2127150-thousands-of-fake-companies-added-to-google-maps-every-month/">New Scientist</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                    In this paper, we investigate a new form of blackhat search engine optimization that targets local listing services like Google Maps. Miscreants register abusive business listings in an attempt to siphon search traffic away from legitimate businesses and funnel it to deceptive service industries---such as unaccredited locksmiths---or to traffic-referral scams, often for the restaurant and hotel industry. In order to understand the prevalence and scope of this threat, we obtain access to over a hundred-thousand business listings on Google Maps that were suspended for abuse. We categorize the types of abuse affecting Google Maps; analyze how miscreants circumvented the protections against fraudulent business registration such as postcard mail verification; identify the volume of search queries affected; and ultimately explore how miscreants generated a profit from traffic that necessitates physical proximity to the victim. This physical requirement leads to unique abusive behaviors that are distinct from other online fraud such as pharmaceutical and luxury product scams.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+
+
+
+          <div class="pub">
+            <span class="badge badge-primary">Workshop</span>
+            <a href="http://fc16.ifca.ai/bitcoin/papers/BHMW16.pdf">
+              <span class=pub-title>Stressing Out: Bitcoin “Stress Testing”</span>
+           </a><br>
+           <span class="pub-authors">Khaled Baqer, <u>Danny Yuxing Huang</u>, Nicholas Weaver, Damon McCoy</span><br>
+           <span class="pub-venue">The Third Workshop on Bitcoin and Blockchain Research, in association with Financial Cryptography and Data Security (FC).</span> 2016.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractBitcoinStress" aria-expanded="false" aria-controls="AbstractBitcoinStress">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractBitcoinStress">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="static/stress-slides.pdf">Slides</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                    In this paper, we present an empirical study of a recent spam campaign (a “stress test”) that resulted in a DoS attack on Bitcoin. The goal of our investigation being to understand the methods spammers used and impact on Bitcoin users. To this end, we used a clustering based method to detect spam transactions. We then validate the clustering results and generate a conservative estimate that 385,256 (23.41 %) out of 1,645,667 total transactions were spam during the 10 day period at the peak of the campaign. We show the impact of increasing non-spam transaction fees from 45 to 68 Satoshis/byte (from $0.11 to $0.17 USD per kilobyte of transaction) on average, and increasing delays in processing non-spam transactions from 0.33 to 2.67 h on average, as well as estimate the cost of this spam attack at 201 BTC (or $49,000 USD). We conclude by pointing out changes that could be made to Bitcoin transaction fees that would mitigate some of the spam techniques used to effectively DoS Bitcoin.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+          <div class="pub">
+            <span class="badge badge-primary">NDSS</span>
+            <a href="static/ndss14-cr.pdf">
+              <span class=pub-title>Botcoin: Monetizing Stolen Cycles</span>
+           </a><br>
+           <span class="pub-authors"><u>Danny Yuxing Huang</u>, Hitesh Dharmdasani, Sarah Meiklejohn, Vacha Dave, Chris Grier, Damon McCoy, Stefan Savage, Nicholas Weaver, Alex C. Snoeren, Kirill Levchenko</span><br>
+           <span class="pub-venue">Network and Distributed System Security Symposium (NDSS).</span> 2014.
+           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#AbstractBotcoin" aria-expanded="false" aria-controls="AbstractBotcoin">
+             more info <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+           </button>
+           <div class="collapse" id="AbstractBotcoin">
+             <div class="well">
+                <p>
+                  <b>See also</b>:
+                  <a href="static/ndss-14-talk.pptx">Slides</a> /
+                  <a href="static/botcoin-poster-csaw-14.png">Poster</a> /
+                  <a href="http://www.kpbs.org/news/2014/feb/28/why-bitcoin-schemers-have-been-hijacking-personal-/">National Public Radio</a> /
+                  <a href="http://www.reuters.com/article/2014/03/14/bitcoin-criminals-idUSL3N0MA0TZ20140314">Reuters</a>
+                </p>
+                <p>
+                  <b>Abstract</b>:
+                   At the current stratospheric value of Bitcoin, miners with access to significant computational horsepower are literally printing money. For example, the first operator of a USD $1,500 custom ASIC mining platform claims to have recouped his investment in less than three weeks in early February 2013, and the value of a bitcoin has more than tripled since then. Not surprisingly, cybercriminals have also been drawn to this potentially lucrative endeavor, but instead are leveraging the resources available to them: stolen CPU hours in the form of botnets. We conduct the first comprehensive study of Bitcoin mining malware, and describe the infrastructure and mechanism deployed by several major players. By carefully reconstructing the Bitcoin transaction records, we are able to deduce the amount of money a number of mining botnets have made.
+                </p>
+              </div>
+           </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Add more publications here -->
+        </div>
+      </div> <!-- /publications -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <br />
+      <br />
+      <hr />
+
+
+      <!-- team section -->
+      <div class="row nav-target section" id="team">
+        <div class="col-xs-12">
+          <h2 class="section-title"><i class="fas fa-user-friends"></i> Team</h2>
+
+          <br />
+
+
+
+          <div class="row">
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/momo.jpg" alt="Momo" class="img-rounded"><br/>
+                Dr. Momo<br /><small>Supreme Director</small>
+              </p>
+            </div>
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <a href="https://www.linkedin.com/in/bsloane/"><img src="images/team/brandon.jpg" alt="Brandon Sloane" class="img-rounded"></a><br/>
+                Brandon Sloane<br /><small>PhD Scholar</small>
+              </p>
+            </div>
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <a href="https://www.linkedin.com/in/chenghao-du-517075110/"><img src="images/team/chenghao.jpeg" alt="Chenghao Du" class="img-rounded"></a><br/>
+                Chenghao Du<br /><small>PhD Scholar</small>
+              </p>
+            </div>
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <a href="https://www.linkedin.com/in/viz-prakash/"><img src="images/team/vijay.jpeg" alt="Vijay Prakash" class="img-rounded"></a><br/>
+                Vijay Prakash<br /><small>PhD Scholar</small>
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/hao.jpg" alt="Hao Shu" class="img-rounded"><br/>
+                Hao Shu<br /><small>Master's</small>
+              </p>
+            </div>
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/jessy.jpeg" alt="Jessy Ayala" class="img-rounded"><br/>
+                Jessy Ayala<br /><small>Master's</small>
+              </p>
+            </div>
+
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/shashank.jpeg" alt="Shashank Shekhar" class="img-rounded"><br/>
+                Shashank Shekhar<br /><small>Master's</small>
+              </p>
+            </div>
+
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/aditya.jpeg" alt="Aditya Dheer" class="img-rounded"><br/>
+                Aditya Dheer<br /><small>Undergraduate</small>
+              </p>
+            </div>
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/shucong.jpeg" alt="Shucong Zhou" class="img-rounded"><br/>
+                Shucong Zhou<br /><small>Undergraduate</small>
+              </p>
+            </div>
+            <div class="col-sm-2">
+              <p class="text-center">
+                <img src="images/team/weilin.jpeg" alt="Wei Lin Chen" class="img-rounded"><br/>
+                Wei Lin Chen<br /><small>Undergraduate</small>
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div> <!-- /team -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <br />
+      <br />
+      <hr />
+
+
+      <!-- classes section -->
+      <div class="row nav-target section" id="classes">
+        <div class="col-xs-12">
+          <h2 class="section-title"><i class="fas fa-book"></i> Classes</h2>
+
+          <br />
+
+          <div class="pub pub-first">
+            <ul>
+              <li><a href="https://wwwsec.hdanny.org/">Network Security</a> (ECE-GY 9383) - Fall 2022</li>
+	            <li><a href="https://network-security-f21.hdanny.org/">Network Security</a> (ECE-GY 9383) - Fall 2021</li>
+              <li><a href="https://mlab.engineering.nyu.edu/classes/iot-2021-sp/">IoT Security & Privacy: A Data-Driven Perspective</a> (ECE-GY 9393 or CUSP-GX 8011) - Spring 2021</li>
+            </ul>
+          </div>
+
+        </div>
+      </div> <!-- /classes -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <br />
+      <br />
+      <hr />
+
+
+      <!-- presentations section -->
+      <div class="row nav-target section" id="presentations">
+        <div class="col-xs-12">
+          <h2 class="section-title"><i class="fas fa-chalkboard-teacher"></i> Talks</h2>
+
+          <br />
+
+          <div class="pub pub-first">
+            <span class=pub-title><a href="https://www.usenix.org/conference/pepr22/presentation/huang">USENIX Conference on Privacy Engineering Practice and Respect (PEPR)</a></span><br>
+            <span class="pub-venue">Speaker. “Three Years of Crowdsourcing Network Traffic from Smart Homes.” </span>
+            <br />June 23, 2022.
+	        </div>
+
+
+          <div class="pub pub">
+            <span class=pub-title><a href="static/NYU-ILI-talk.pdf">Privacy Research Group, NYU Information Law Institute</a></span><br>
+            <span class="pub-venue">Speaker. “Watching IoTs That Watch Us: Empirically Studying IoT Security & Privacy at Scale.” </span>
+            <br />September 18, 2020.
+	        </div>
+
+
+          <div class="pub">
+            <span class=pub-title><a href="https://docs.google.com/presentation/d/1b1i5D2dOf19pStrkwUvEOQ_q24GTrYbyTJRZluqnc50/edit">Federal Trade Commissions</a></span><br>
+            <span class="pub-venue">Speaker. “Watching IoTs That Watch Us: Empirically Studying IoT Security & Privacy at Scale.” </span>
+            <br />December 11, 2019.
+	        </div>
+
+          <div class="pub">
+	    <span class=pub-title><a href="https://crypto.stanford.edu/seclab/sem-19-20/huang.html">Stanford University - Security Seminar</a></span><br>
+	    <span class="pub-venue">Speaker. “Watching IoTs That Watch Us: Empirically Studying IoT Security & Privacy at Scale.” </span>
+	    <br />October 7, 2019.
+	  </div>
+
+          <div class="pub pub">
+           <span class=pub-title><a href="https://docs.google.com/presentation/d/1HhdtU6CaQ6X7iWRJU6kxai9PlN60NgpZbjVMwNS-YxA/edit#slide=id.g4e845a4a41_0_23">National Academies of Sciences - Research Workshop</a></span><br>
+           <span class="pub-venue">Speaker and panelist for the Government-University-Industry Research Roundtable: “Authenticity, Integrity, and Security in a Digital World.” </span>
+           <br />February 20, 2019.
+         </div>
+
+          <div class="pub pub">
+           <span class=pub-title><a href="https://events.williams.edu/event/computer-science-colloquium-tracking-bitcoins-in-criminal-operations/">Williams College - Computer Science Colloquium</a></span><br>
+           <span class="pub-venue">Speaker. “Tracking Bitcoins in Criminal Operations.” </span>
+           <br />October 26, 2018.
+         </div>
+
+          <div class="pub pub">
+           <span class=pub-title><a href="https://crypto.stanford.edu/seclab/sem-17-18/huang.html">Stanford University - Security Seminar</a></span><br>
+           <span class="pub-venue">Speaker. “Tracking Bitcoins in Criminal Operations.” </span>
+           <br />April 5, 2018.
+         </div>
+
+          <div class="pub pub">
+           <span class=pub-title><a href="https://docs.google.com/presentation/d/1KZPybiI9x4CA-MmO_dsOCQXVDZ5VY5D-ReRnQpUglRU/edit#slide=id.g35e71de504_0_0">Yale University - Dept of Sociology</a></span><br>
+           <span class="pub-venue">Guest lecturer for SOCY 321: Markets and Society. “How and Why Criminals Use Bitcoin.” </span>
+           <br />March 27, 2018.
+         </div>
+
+          <div class="pub pub">
+           <span class=pub-title><a href="https://docs.google.com/presentation/d/1dwanfOMwnPv04DkYKEl-UnfR2jmoHGTXUsH3sG7tnFw/edit#slide=id.p">Uber - Guest Tech Talk</a></span><br>
+           <span class="pub-venue">Speaker. “Pinning Down Abuse on Google Maps.” </span>
+           <br />July 5, 2017.
+         </div>
+
+        </div>
+      </div> <!-- /presentations -->
+
+
+
+
+
+
+
+
+
+
+      <br />
+      <br />
+      <hr />
+
+
+
+      <!-- interests section -->
+      <div class="row nav-target section" id="about">
+        <div class="col-xs-12" >
+          <h2 class="section-title"><i class="fas fa-paw"></i> About Danny Y. Huang</h2>
+          <br />
+          <p>
+            <b>Current role:</b> I am an Assistant Professor at New York University's <a href="https://engineering.nyu.edu/">Tandon School
+            of Engineering</a>. I am a part of the <a
+            href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">Electrical
+            and Computer Engineering Department</a> and <a href="https://cusp.nyu.edu/">Center for Urban Science + Progress</a>.
+            I am also affiliated with NYU's <a href="https://cyber.nyu.edu/">Center for Cybersecurity</a>,
+	    <a href="https://engineering.nyu.edu/academics/departments/computer-science-and-engineering">Computer Science and Engineering Department</a>,
+	    and <a href="https://cds.nyu.edu/">Center for Data Science</a>.
+          </p>
+          <br />
+          <p>
+            <b>Past research experience:</b>
+            Before joining NYU, I was a a postdoctoral fellow at Princeton
+            University advised by
+            <a href="https://people.cs.uchicago.edu/~feamster/">Prof. Nick
+            Feamster</a> (who recently moved to University of Chicago). I was
+            affiliated with Princeton's Center for Information Technology Policy
+            and Department of Computer Science.
+          </p>
+          <p>
+            I obtained my PhD in Computer Science from University of California, San Diego,
+            advised by
+            <a href="http://cseweb.ucsd.edu/~snoeren/">Prof. Alex C. Snoeren</a> and
+            <a href="http://klevchen.ece.illinois.edu/">Prof. Kirill Levchenko</a> (who recently moved to UIUC).
+            My <a href="static/phd.pdf">PhD dissertation</a> uses cryptocurrencies to measure financial activities of malicious actors and to uncover potential identities of these actors.
+          </p>
+          <p>
+            During my PhD, I spent two summers interning with Google's <a href="https://ai.google/research/teams/security-privacy-abuse/">anti-abuse research team</a>, advised by <a href="https://ai.google/research/people/ElieBursztein/">Dr. Elie Bursztein</a>.
+          </p>
+          <a id="momo"></a>
+          <p>
+            I graduated from Williams College (Massachusetts) with a BA in Computer Science,
+            advised by <a href="https://www.cs.williams.edu/~jeannie/">Prof. Jeannie Albrecht</a>.
+            At Williams, I also directed a series of <a href="https://www.youtube.com/playlist?list=PLDDCE43C652BC6279">Chinese cooking shows</a> on Williamstown Community Television.
+          </p>
+          <br />
+          <p>
+            <b>Why is it called NYU &ldquo;mLab&rdquo;?</b>
+            One of my long-term collaborators is momo (pictured below), who constantly travels with me for work and for leisure. She is the Supreme Director of mLab&mdash;short for momoLab.
+          </p>
+          <p>
+            <a href="images/momo.jpg"><img src="images/momo.jpg" alt="Me and Momo" width="350" class="img-rounded" /></a>
+          </p>
+        </div>
+      </div> <!-- /interests  -->
+
+
+
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <span>Template of this website was first developed by <a href="https://www.cs.princeton.edu/~apthorpe/">Noah Apthorpe</a>.</span>
+
+
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script>
+    $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+      }
+    });
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Default Statcounter code for my website
+https://www.cs.princeton.edu/~yuxingh/ -->
+<script type="text/javascript">
+var sc_project=7399198;
+var sc_invisible=1;
+var sc_security="0d133ce3";
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/7399198/0/0d133ce3/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+  </body>
+</html>

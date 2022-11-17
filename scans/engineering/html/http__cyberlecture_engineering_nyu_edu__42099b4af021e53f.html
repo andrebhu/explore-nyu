@@ -1,0 +1,871 @@
+<!doctype html>
+<!--[if IE 9]><html class="no-js lt-ie10" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<!--[if lte IE 8]>
+<script type="text/javascript">
+    if ( document.URL.indexOf( 'ie8' ) === -1 ) {
+        window.location = 'http://' + location.hostname + '/ie8';
+    }
+</script>
+<![endif]-->
+
+<head>
+
+    
+    <meta charset="utf-8" />
+
+    <title></title>
+
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fav and touch icons -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon/manifest.json">
+    <link rel="mask-icon" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon/safari-pinned-tab.svg" color="#fff">
+    <link rel="shortcut icon" href="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <meta name="theme-color" content="#fff">
+
+    
+    <link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cyberlecture.engineering.nyu.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='psw-css-css'  href='https://cyberlecture.engineering.nyu.edu/wp-content/plugins/wp-photoswipe/lib/photoswipe/photoswipe.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bs_css-css'  href='https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/public/css/bootstrap.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='theme_css-css'  href='https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/public/css/app.css?ver=4.8.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://cyberlecture.engineering.nyu.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cyberlecture.engineering.nyu.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cyberlecture.engineering.nyu.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel="canonical" href="https://cyberlecture.engineering.nyu.edu/" />
+<link rel='shortlink' href='https://cyberlecture.engineering.nyu.edu/' />
+<link rel="alternate" type="application/json+oembed" href="https://cyberlecture.engineering.nyu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcyberlecture.engineering.nyu.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cyberlecture.engineering.nyu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcyberlecture.engineering.nyu.edu%2F&#038;format=xml" />
+<script>window.device = 'desktop';</script>
+
+
+    <script src="https://use.typekit.net/mig4fed.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+
+    <body class="home page-template page-template-template-home page-template-template-home-php page page-id-103" data-source="base.twig">
+
+	<div id="wrapper">
+
+	    <!-- Sidebar -->
+<div id="sidebar-wrapper">
+
+    <ul class="sidebar-nav">
+
+        <ul class="main-menu">
+
+    <li>
+        <a href="/"> Home </a>
+    </li>
+
+    
+    <li>
+        <a href="#about-event"> About Event </a>
+    </li>
+
+    
+    
+    
+    <li>
+        <a href="#past-events"> Past Events </a>
+    </li>
+
+    <li>
+        <a href="#about-cybersecurity"> Cybersecurity at NYU </a>
+    </li>
+
+    <li>
+        <a href="#about-us"> About Us </a>
+    </li>
+
+    <li>
+        <a href="#contact"> Contact </a>
+    </li>
+
+</ul>
+    </ul>
+
+</div>
+<!-- /#sidebar-wrapper -->
+	    <header id="banner" class="banner">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-3 col-lg-7">
+                <div class="site-title">
+                <a href="/"><h1 class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"><span>Cyber Lecture Series 2022</span> </h1></a>
+                <a href="#menu-toggle" class="menu" id="menu-toggle">
+    <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+</a>                </div>
+            </div>
+
+            <div class="col-9 col-lg-5">
+                <div class="logo">
+                    <a href="http://engineering.nyu.edu"><img src="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/logo.png" alt="" class="w-100" targer="_blank"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+
+				
+					
+    <!-- Large modal -->
+<!--div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <iframe src="http://act.online.engineering.nyu.edu/acton/form/9709/0217:d-0001/1/-/-/-/-/index.htm" frameborder="0" height="100%"></iframe>
+    </div>
+  </div>
+</div-->
+
+
+<div id="hero">
+
+    <div class="hero d-flex ">
+
+        <div class="content-block">
+
+            <div class="align-items-center d-xs-none d-sm-none d-md-flex d-lg-flex d-xl-flex">
+
+                <div class="container">
+
+                    <div class="text-right">
+
+                                                <h2>
+                            <h1>12th<br />
+Cyber<br />
+Security<br />
+Lecture</h1>
+
+                        </h2>
+                                                <p></p>
+                                                <div class="sponsor">
+                            <h3 class="text-uppercase">Sponsor</h3>
+                        </div>
+                        <img class="logo" src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/aig-logo.png" alt="">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="event-details">
+                <div class="container-fluid">
+
+                    <div class="row align-items-center">
+
+                            <div class="col-12 col-sm-6">
+                                                            <h2 class="event-title">CLOUD SECURITY MEGATRENDS - April 14th, 2022 1 - 2:30 p.m. EST - (Watch Recording)</h2>
+                                                        </div>
+
+                            <div class="col-12 col-sm-3">
+                                                        </div>
+
+                            <div class="col-12 col-sm-3">
+                                
+                                
+
+                                <a href="#past-events" class="scroll-button">
+                                    <div>See Past Events</div>
+                                </a>
+
+
+                            </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <img class="w-100" src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/cyber-lock-9-bg.jpg" alt="">
+
+    </div>
+
+</div>
+
+
+    
+
+<div id="about-event">
+
+	<div class="container">
+
+		<div class="jumbotron">
+
+			<h2 class="text-left mb-5"></h2>
+
+			<p class="lead">
+			<h2 class="text-left text-capitalize mb-5">About Event</h2>
+<p><b id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8476"><span id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8477">The NYU Tandon School of Engineering Cyber Security Lecture Series </span></b><span id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8478">provides an arena for high-level discussion among world-class scholars and practitioners. </span><b id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8479"><span id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8480">Now sponsored by AIG</span></b><span id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8481">&#8212;</span><span id="m_-3586502702157024242yui_3_16_0_ym19_1_1511887550789_8482">the multinational insurance organization&#8211;lectures and panel discussions are designed to raise the visibility of risks and issues, including personal privacy. Internationally renowned experts join together to stimulate collaborative thinking, especially among New York’s regional businesses, government agencies, non-profits, academic institutions, media, and the public. Practical and timely, the series also focuses on possible strategies that address the impact of growing risks.</span><br />
+<!--
+&nbsp;
+
+<span class="btn-nyu-primary"><a class="scroll-button" href="https://act.online.engineering.nyu.edu/acton/media/9709/nextcyberlecture" target="_blank" rel="noopener">Join Mailing List</a></span>
+--></p>
+
+			</p>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+    
+    
+    <div id="past-events">
+
+	<div class="container">
+
+		<h2 class="text-left text-capitalize mb-5">Past Events</h2>
+
+		<div class="row row-eq-height">
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/12th-cyber-security-lecture/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2022/03/cyber-lecture-12-featured-img.jpg" alt="Lecture 12" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/12th-cyber-security-lecture/">
+					        Lecture 12
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/12th-cyber-security-lecture/">CLOUD SECURITY MEGATRENDS - April 14th, 2022 1 - 2:30 p.m. EST - (Online)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>Does cloud adoption improve security for most organizations? Is it more secure than on-premise infrastructure? Will it help drive innovation and transformation in my organization? These questions are filled with nuances shaped by differing perspectives, organizational structures, and personal experiences. This session will&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/12th-cyber-security-lecture/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-11/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2021/09/cyber-lecture-11-featured-img.jpg" alt="Lecture 11" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-11/">
+					        Lecture 11
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-11/">DATA SCIENCE AS THE FOUNDATION FOR A CYBER SECURITY PROGRAM - Online - (October 6, 2021)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>This statement is neither common nor generally accepted by cyber security leaders. This session will focus on all the reasons that we believe data science is fundamental to building a successful and mature cyber security program, and what the implications are&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-11/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-10/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2018/03/lecture10-banner-w-green-theme-banner-rs-1.jpg" alt="Lecture 10" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-10/">
+					        Lecture 10
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-10/">DISPELLING THE TOP 10 MYTHS OF CYBERSECURITY (March 29, 2018)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>For the 10th lecture in NYU Tandon’s renowned cybersecurity series, join CrowdStrike’s Co-Founder &#038; CTO Dmitri Alperovitch. Few people in the private sector have faced as many nation-state and criminal cyber adversaries as CrowdStrike’s Co-Founder &#038; CTO Dmitri Alperovitch. He has investigated such&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-10/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-9/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture9-banner-w-pink-theme-banner-rs2.jpg" alt="Lecture 9" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-9/">
+					        Lecture 9
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-9/">DEMOCRACY CONFRONTS CYBER INSECURITY (November 16, 2017)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>Featuring experiences and anecdotes from the last four Presidential administrations, Amoroso will illustrate the growing intensity of cyber threat to the applications and systems supporting our national, state, and local elections, including A current view of national critical infrastructure risk Anecdotes about how&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-9/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-8/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/convengence-2017v2-1.jpg" alt="Lecture 8" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-8/">
+					        Lecture 8
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-8/">CONVERGENCE OF IOT, CLOUD, SECURITY - A PERFECT STORM (April 25, 2017)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>Growth of the Internet of Things (IoT) and Cloud Computing has magnified the impact of the security challenge by orders of magnitude. Join Wally Rhines, CEO of Mentor Graphics, as he examines the growing threats to silicon security and possible solutions. As electronic&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-8/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-7/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture7-banner.jpg" alt="Lecture 7" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-7/">
+					        Lecture 7
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-7/">THE COMING AGE OF THE INTERNET OF THINGS (November 4, 2015)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>Soon many billions of heretofore disconnected devices will be outfitted with Internet access and equipped with software. These appliances will be able to accept control from authorized parties and to emit information that can be used for management and analysis. The introduction of&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-7/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-6/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture6-banner.png" alt="Lecture 6" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-6/">
+					        Lecture 6
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-6/">CYBER INSURANCE AND CORPORATE GOVERNANCE - FACING NEW THREATS (April 2, 2015)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>While fears of “Cyber Pearl Harbors” dominate headlines, many of the most costly cyber attacks are better characterized as acts of theft, jeopardizing some of the most valuable assets US companies possess. With intrusions targeting vulnerable intellectual property and the personal information of&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-6/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-5/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture5-banner.jpg" alt="Lecture  5" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-5/">
+					        Lecture  5
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-5/">SURVIVING ON A DIET OF POISONED FRUIT - REDUCING THE RISK OF AMERICA'S CYBER DEPENDENCIES (December 10, 2014)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>In his Distinguished Lecture, Richard Danzig proposes strategies for coping with a security paradox presented by cyber systems: As digital systems grant us unprecedented powers, they also make us less secure. While their immense communication capabilities enable wide scale collaboration and networking, they open&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-5/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-4/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture4-banner.png" alt="Lecture 4" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-4/">
+					        Lecture 4
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-4/">REDUCING THE NATION'S CYBER RISK - WHITE HOUSE INSIGHTS ON THE PRESIDENT'S CRITICAL INFRASTRUCTURE FRAMEWORK (March 10, 2014)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>President Obama&#8217;s Cyber Security Executive Order 13636 calls for an intensive effort to adopt a common national Framework aimed at reducing the cyber risk to our country&#8217;s critical infrastructure. This event, featuring the White House Director of Critical Infrastructure Cybersecurity, Samara Moore, together&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-4/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-3/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture3-banner.jpg" alt="Lecture 3" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-3/">
+					        Lecture 3
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-3/">RECLAIM YOUR NAME - PRIVACY IN THE WORLD OF BIG DATA (October 23, 2013)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>In NYU Tandon School of Engineering’s third, eagerly anticipated Sloan Cyber Security Lecture, Federal Trade Commissioner Julie Brill explores the expanding collection and use of Big Data in the marketplace, recognizing the challenges it presents for consumers and businesses&#8211;as well as for agencies&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-3/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-2/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture2-banner.jpg" alt="Lecture 2" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-2/">
+					        Lecture 2
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-2/">DEFENDING CYBERSPACE - ARE WE READY? (September 7, 2012)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>In NYU Tandon School of Engineering’s second, eagerly anticipated Sloan Cyber Security Lecture, the National Security Agency’s Information Assurance Director discusses current cyber security threats, vulnerabilities and trends. Debora A. Plunkett outlines critical steps that must be taken to ensure our nation is&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-2/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    <div class="col-12 col-sm-6">
+
+			<div class="card mb-4">
+			    
+			        <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-1/">
+			            <img src="https://cyberlecture.engineering.nyu.edu/wp-content/uploads/2017/10/lecture1-banner.jpg" alt="Lecture 1" class="card-img-top w-100">
+			        </a>
+
+			    				<div class="card-body">
+
+					<h4 class="card-title">
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-1/">
+					        Lecture 1
+					    </a>
+					</h4>
+
+	                <h6><a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-1/">CYBERSPACE ALLIES - HOW PUBLIC/PRIVATE PARTNERSHIPS CAN FIGHT BACK (June 21, 2012)</a></h6>
+
+					<p class="card-text">
+					    
+					    
+					        <p>Once we became deeply dependent on the Internet, business, government, and our critical infrastructure fell vulnerable to serious security risks. Early on, we recognized that strategic weaknesses can be exploited by foreign agents, resulting in catastrophic failure of our power grid, transportation systems,&hellip;</p>
+
+					    
+					    <a href="https://cyberlecture.engineering.nyu.edu/lectures/lecture-1/" class="read-more mt-4">Learn More</a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	    
+	    </div>
+
+	</div>
+
+</div>
+    
+<div id="about-cybersecurity">
+
+	<div class="container">
+
+		<h2 class="text-left mb-5">Cybersecurity at NYU</h2>
+							<div class="card mb-4">
+  						<h5 class="card-header">Programs</h5>
+						<div class="card-body">
+						<p><strong>Take the next step in your career. Find out information about our cybersecurity masters degrees.</strong></p>
+<hr class="my-4" />
+<h4>An Online Computer Science Pre-requisite Course</h4>
+<p><a href="https://engineering.nyu.edu/academics/programs/nyu-tandon-bridge" target="_blank" rel="noopener">NYU Tandon Bridge </a> | Non-Credit Course | Location: Online</p>
+<p>&#8220;NYU Tandon Bridge&#8221; is a fast and convenient way to advance your education. Since many of the best positions in growing fields like cyber security, data science, and artificial intelligence require an advanced degree, we designed this online program to prepare you for entrance into the computer science or cybersecurity master’s program at the NYU Tandon School of Engineering. Students with a humanities, arts or social science undergraduate degree will find this program particularly beneficial as you may have little to no computer science training.</p>
+<hr class="my-4" />
+<h4>An Elite, Affordable Online Cybersecurity Degree</h4>
+<p><a href="https://engineering.nyu.edu/academics/programs/cybersecurity-ms-online/nyu-cyber-fellows" target="_blank" rel="noopener">NYU Cyber Fellows Program</a> | 30 Credits | Location: Online</p>
+<p>The NYU Cyber Fellows is an elite, affordable part-time online Cybersecurity, M.S. in partnership with New York City Cyber Command, with a curriculum designed in cooperation with elite corporate partners. Offering up to 75 percent tuition scholarships to U.S. residents.</p>
+<hr class="my-4" />
+<h4>Stay Ahead Of Cybersecurity Threats</h4>
+<p>Cybersecurity, M.S. | 30 Credits | Location: <a href="https://engineering.nyu.edu/academics/programs/cybersecurity-ms-online" target="_blank" rel="noopener">Online</a> or <a href="http://engineering.nyu.edu/cybersecurity-ms-0" target="_blank" rel="noopener">On-Campus</a></p>
+<p>As the demand for skilled information-security experts continues to grow, computer and network professionals can now master the science of protecting vital computer networks and electronic infrastructures from attack. NYU Tandon School of Engineering’s Online Cybersecurity Master’s Degree program will give you a solid foundation in computer and network security, digital forensics, cryptography, and biometrics, helping you become a sophisticated practitioner of these key technologies.</p>
+<p>With the industry continuing to place top priority on safeguarding its data and information systems, you will be well prepared to develop security products as a security-application programmer, security analyst, penetration tester, vulnerability analyst, and security architect. You will also have the opportunity to study with internationally recognized faculty from the Offensive Security, Incident Response, and Internet Security Laboratory (OSIRIS LAB).</p>
+<hr class="my-4" />
+<h4>Address 21st Century Technology, Business, and Cyber Security Needs</h4>
+<p><a href="https://engineering.nyu.edu/academics/programs/management-technology-ms-online" target="_blank" rel="noopener">Management of Technology, M.S. Cybersecurity Concentration</a> | 36 Credits | Location: Online</p>
+<p>Successful managers need to keep up with the seemingly non-stop pace of technological advances to spot fads from worthwhile investments and get the most out of the technology they implement. NYU Tandon School of Engineering’s Online Management of Technology Master’s Degree program will prepare you to oversee a team of cybersecurity experts. The curriculum addresses the increased demand for managers with technical knowledge in cybersecurity.</p>
+<hr class="my-4" />
+<h4>Deepen Your Understanding of Cybersecurity Risk and Strategy</h4>
+<p><a href="https://cybersecurity-strategy-masters.nyu.edu/" target="_blank" rel="noopener">Cybersecurity Risk and Strategy, M.S.</a> | 30 Credits</p>
+<p>Offered jointly by NYU School of Law and NYU Tandon School of Engineering, the Cybersecurity Risk and Strategy, M.S. is a one-year program intended for experienced professionals from a range of backgrounds who seek to deepen their understanding of cybersecurity risk and strategy. Cybersecurity—both prevention and response—frequently requires coordination between public- and private-sector organizations and expertise in technology, law, and policy. This program will create managers with the integrated expertise needed to play a leadership role in the field.</p>
+<hr class="my-4" />
+<h4>Become Skilled and Capable of Supporting a Cyber-Secure Nation</h4>
+<p><a href="https://engineering.nyu.edu/academics/programs/cybersecurity-ms-online#National-Centers-of-Academic-Excellence-in-Cybersecurity-Designation-Tracks" target="_blank" rel="noopener">Cybersecurity, M.S. CAE-Cyber Ops Specializtion</a> | 30 Credits</p>
+<p>NYU Tandon School of Engineering is one of approximately 20 graduate schools in the country to have the designation of National Centers of Academic Excellence (CAE) in Cyber Operations. The CAE-Cyber Operations program is intended to be a deeply technical, interdisciplinary, higher education program firmly grounded in the computer science (CS), computer engineering (CE), and/or electrical engineering (EE) disciplines, with extensive opportunities for hands-on applications via labs/exercises.</p>
+
+						</div>
+				</div>
+							<div class="card mb-4">
+  						<h5 class="card-header">The Offensive Security, Incident Response and Internet Security Laboratory (OSIRIS LAB)</h5>
+						<div class="card-body">
+						<p>The OSIRIS Lab is a security research environment where students analyze and understand how attackers take advantage of real systems. This approach gives our students a unique perspective and a proper foundation that allows them to master any area of security at NYU Tandon.</p>
+<p>» <a href="https://www.osiris.cyber.nyu.edu/?_ga=2.193421421.1722091844.1661452587-1791143292.1661452587" target="_blank" rel="noopener">Learn More about the OSIRIS Lab</a></p>
+
+						</div>
+				</div>
+							<div class="card mb-4">
+  						<h5 class="card-header">NYU Center for Cybersecurity</h5>
+						<div class="card-body">
+						<p>The NYU Center for Cybersecurity (CCS) is an interdisciplinary research institute consisting of members from NYU School of Law, NYU Tandon School of Engineering, and other NYU schools and departments. CCS is dedicated to training the current and future generations of cybersecurity professionals, and shaping public discourse and policy, legal, and technological landscapes on issues of cybersecurity. Additionally, CCS engages in a wide range of initiatives, including student scholarships, events, interdisciplinary research, and teaching.</p>
+<p>» <a href="http://cyber.nyu.edu/" target="_blank" rel="noopener">Learn More about the NYU Center for Cybersecurity</a></p>
+
+						</div>
+				</div>
+			
+	</div>
+
+</div>
+
+    
+<div id="about-us">
+
+	<div class="container">
+
+		<h2 class="text-left text-capitalize mb-5">About Us</h2>
+
+		<div class="card-deck">
+							<div class="card">
+  						<h5 class="card-header">NYU TANDON SCHOOL OF ENGINEERING / CYBER SECURITY LECTURES</h5>
+						<div class="card-body">
+						<p>With the ever-increasing scale of interconnected information systems, concerns about cyber security dangers and threats increase daily. NYU Tandon School of Engineering&#8217;s Cyber Security Lecture Series provides an arena for high-level discussion among world-class scholars and practitioners. <span id="gmail-m_5670166546669738109yiv3059200888yui_3_16_0_ym19_1_1509536768984_55836"><span id="gmail-m_5670166546669738109yiv3059200888yui_3_16_0_ym19_1_1509536768984_55540">Now sponsored by AIG, the multinational insurance </span></span><span id="gmail-m_5670166546669738109yiv3059200888yui_3_16_0_ym19_1_1509536768984_55611"><span id="gmail-m_5670166546669738109yiv3059200888yui_3_16_0_ym19_1_1509536768984_55692">organization, lectures </span>and panel discussions</span> are designed to raise the visibility of risks and issues, including personal privacy. Internationally renowned experts join together to stimulate collaborative thinking, especially among New York&#8217;s regional businesses, government agencies, nonprofits, academic institutions, media, and the public. Practical and timely, the series also focuses on possible strategies that address the impact of growing risks.</p>
+
+						</div>
+				</div>
+							<div class="card">
+  						<h5 class="card-header">NYU TANDON SCHOOL OF ENGINEERING</h5>
+						<div class="card-body">
+						<p>The NYU Tandon School of Engineering dates to 1854, the founding date for both the New York University School of Civil Engineering and Architecture and the Brooklyn Collegiate and Polytechnic Institute (widely known as Brooklyn Poly). A January 2014 merger created a comprehensive school of education and research in engineering and applied sciences, rooted in a tradition of invention and entrepreneurship and dedicated to furthering technology in service to society. In addition to its main location in Brooklyn, NYU Tandon collaborates with other schools within NYU, the country&#8217;s largest private research university, and is closely connected to engineering programs at NYU Abu Dhabi and NYU Shanghai. It operates Future Labs focused on start-up businesses in downtown Manhattan and Brooklyn and an award-winning online graduate program.</p>
+<p>For more information about NYU Tandon School of Engineering, visit <a href="http://engineering.nyu.edu" target="_blank" rel="noopener">engineering.nyu.edu</a>.</p>
+
+						</div>
+				</div>
+							<div class="card">
+  						<h5 class="card-header">ABOUT NEW YORK UNIVERSITY</h5>
+						<div class="card-body">
+						<p>Founded in 1831, NYU is one of the world&#8217;s foremost research universities and is a member of the selective Association of American Universities. NYU has degree-granting university campuses in New York, Abu Dhabi, and Shanghai; has eleven other global academic sites, including London, Paris, Florence, Tel Aviv, Buenos Aires, and Accra; and both sends more students to study abroad and educates more international students than any other U.S. college or university. Through its numerous schools and colleges, NYU is a leader in conducting research and providing education in the arts and sciences, engineering, law, medicine, business, dentistry, education, nursing, the cinematic and performing arts, music and studio arts, public administration, social work, and professional studies, among other areas.</p>
+<p>For more information about New York University, visit <a href="http://www.nyu.edu" target="_blank" rel="noopener">www.nyu.edu</a>.</p>
+
+						</div>
+				</div>
+					</div>
+
+	</div>
+
+</div>
+
+
+				
+	    <footer class="site">
+
+        <div id="contact">
+
+            <div class="container">
+    <div id="contact">
+
+        <div class="row">
+
+            <div class="col-6 col-sm-3">
+
+                <div class="center logo mt-2">
+
+                    <a href="/"><img src="https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/img/logo.png" alt="" class="w-100"></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-sm-9">
+
+            </div>
+
+        </div>
+
+        <p><br></p>
+
+        <div class="row">
+
+        	<div class="col-12 col-lg-4">
+
+                <p><p><!--
+<strong>Directions</strong>
+NYU Tandon School of Engineering<br />
+5 MetroTech Center, Pfizer Auditorium<br />
+Brooklyn, NY, US<br />
+Brooklyn Map<br />
+By Subway<br />
+A C F R train to Jay St MetroTech<br />
+2 3 4 5 train to Borough Hall (walk one block East to Willoughby <br />
+Street and make a left onto Jay Street)
+<a href="http://engineering.nyu.edu/files/Brooklyn%20Map%20PDF.pdf" target="_blank">Brooklyn Map</a>
+--><br />
+<!--The next event will be virtual. 
+
+We'll keep you informed when this event returns in-person--><br />
+<a href="https://act.online.engineering.nyu.edu/acton/media/9709/nextcyberlecture" target="_blank">Join the Mailing List</a> to be contacted when the next NYU Cyber Lecture is open for registration</p>
+<p>&nbsp;</p>
+</p>
+
+            </div>
+
+            <div class="col-12 col-lg-5">
+
+                <p><!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0953207995194!2d-73.98824338422433!3d40.69389827933385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4af130a285%3A0xab47ddf844999f4a!2sPfizer+Auditorium!5e0!3m2!1sen!2sus!4v1508864128863" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+--></p>
+
+
+            </div>
+
+        	<div class="col-12 col-lg-3">
+
+        		<div class="text-right">
+
+        			<p><strong>Contact</strong><br>
+Cyber Lecture Team<br>
+
+Follow #NYUCyberLecture and join our <a href="https://www.linkedin.com/groups/13980407/" target=_blank">NYU Cybersecurity LinkedIn group</a><br>
+<a href="mailto:cyberlectureseries@nyu.edu">cyberlectureseries@nyu.edu</a></p>
+
+        		</div>
+
+        	</div>
+
+        </div>
+
+    </div>
+</div>
+        </div>
+</footer>
+
+<div class="container">
+
+    <div class="col sub-footer">
+
+        <span>All Right Reserved © NYU Tandon School of Engineering 2022</span>
+
+    </div>
+</div>
+
+
+		<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-content/plugins/wp-photoswipe/lib/photoswipe/lib/klass.min.js?ver=3.0.5'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-content/plugins/wp-photoswipe/lib/photoswipe/code.photoswipe-3.0.5.min.js?ver=3.0.5'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-content/plugins/wp-photoswipe/lib/psw.call.js?ver=1.0'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/public/bootstrap.bundle.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-content/themes/cyberlecture/public/app.bundle.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://cyberlecture.engineering.nyu.edu/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+
+
+	</div><!-- /.wrapper -->
+
+    </body>
+
+</html>

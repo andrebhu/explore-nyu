@@ -1,0 +1,13 @@
+200 OK
+Etag: "38e89-90-541949f789b80;541957bf2de40"
+Content-Type: text/html; charset=UTF-8
+Content-Language: en
+Date: Thu, 17 Nov 2022 16:56:50 GMT
+Last-Modified: Fri, 18 Nov 2016 15:04:30 GMT
+Vary: negotiate,accept-language
+Tcn: choice
+Accept-Ranges: bytes
+Content-Length: 144
+Retry-Count: 0
+Server: Apache
+Content-Location: redirect.html.en

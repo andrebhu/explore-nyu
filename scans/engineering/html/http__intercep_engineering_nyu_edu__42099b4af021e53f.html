@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <title>Squarespace - Domain Not Claimed</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <script src="//assets.squarespace.com/@sqs/polyfiller/1.2.2/legacy.js" nomodule type="text/javascript" crossorigin="anonymous"></script>
+  <script src="//assets.squarespace.com/@sqs/polyfiller/1.2.2/modern.js" type="text/javascript" crossorigin="anonymous"></script>
+  <script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-f409e438ac273868c18f5-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-98bddc81dc37f44faa7b2-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-83b0e6eb9a2c7557ad4c0-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-9b2a74c45b27271fd111d-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-32a5be2fc53b2bf015c5b-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-33775305ac110ab367109-min.en-US.js" ></script><link rel="stylesheet" type="text/css" href="//assets.squarespace.com/universal/styles-compressed/common-058b428d91e2c658c0e4b-min.en-US.css">
+  <script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/dialog-3f1b20ecaca744b23583c-min.en-US.js" ></script><link rel="stylesheet" type="text/css" href="//assets.squarespace.com/universal/styles-compressed/dialog-89b254b5c87045b9e1360-min.en-US.css">
+  <script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/system-page-bff567fdaac6706c3cdda-min.en-US.js" ></script><link rel="stylesheet" type="text/css" href="//assets.squarespace.com/universal/styles-compressed/system-page-da68cbe1026262605dd01-min.en-US.css">
+
+  <script>
+
+    YUI(YUI_CONFIG).use('squarespace-common', 'squarespace-system-page', function(Y) {
+
+      Y.on("domready", function() {
+
+        var lb = new Y.Squarespace.Lightbox({
+          disableNormalClose: true,
+          clickAnywhereToExit: false,
+          content: '<div class="bigtext"><div class="title">Domain Not Claimed</div><div class="description">This domain has been mapped to Squarespace, but it has not yet been claimed by a website.  If this is your domain, claim it in the Domains tab of your Website Manager.</div></div>',
+          margin: 100,
+          noHeightConstrain: true
+        });
+
+        lb.show();
+
+        lb.getContentEl().on("click", function(e) {
+          if (e.target.ancestor(".login-button", true)) {
+            document.location.href = '/config/';
+          }
+        });
+
+      });
+
+    });
+
+  </script>
+
+
+</head>
+<body class="squarespace-config squarespace-system-page">
+
+  <div class="minimal-logo">&nbsp;</div>
+
+</body>
+</html>
+

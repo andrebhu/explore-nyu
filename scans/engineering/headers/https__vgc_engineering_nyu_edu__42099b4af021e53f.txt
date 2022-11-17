@@ -1,0 +1,12 @@
+200 OK
+Date: Thu, 17 Nov 2022 16:57:14 GMT
+Server: Apache/2.2.15
+X-Powered-By: PHP/5.3.3
+Vary: Accept-Encoding,Cookie
+X-Vary-Options: Accept-Encoding;list-contains=gzip,Cookie;string-contains=wikidb_vgc_Token;string-contains=wikidb_vgc_LoggedOut;string-contains=wikidb_vgc__session
+Cache-Control: private, must-revalidate, max-age=0
+Last-Modified: Thu, 01 Aug 2019 15:55:51 GMT
+Content-Language: en
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8

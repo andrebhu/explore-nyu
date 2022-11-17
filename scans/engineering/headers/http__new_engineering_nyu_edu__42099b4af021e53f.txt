@@ -1,0 +1,25 @@
+200 OK
+X-Generator: Drupal 8 (https://www.drupal.org)
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Etag: "1667400890"
+Content-Length: 116556
+Link: <http://engineering.nyu.edu/>; rel="shortlink", <http://engineering.nyu.edu/>; rel="canonical" <http://engineering.nyu.edu/node/616>; rel="revision"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Wed, 02 Nov 2022 14:54:50 GMT
+Cache-Tags: HIT
+Accept-Ranges: bytes
+Via: 1.1 varnish-v4
+Retry-Count: 0
+Server: nginx/1.12.2
+Content-Language: en
+Vary: Cookie
+X-Drupal-Cache: MISS
+X-Varnish: 437179125 432702165
+Age: 1303322
+Date: Thu, 17 Nov 2022 16:56:54 GMT
+X-Powered-By: PHP/7.4.25
+X-Ua-Compatible: IE=edge

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrftoken" content="ImZkMmMxNjk1Nzg3OTgxMzM2MmNjYmU3MmZkZjhkNmNmNGNiM2ExMzgi.Flf5bA.WS9UnYgJ6b-DBMX3WXNCTQr15iM">
+    <title>in-toto layout tool</title><script src="/vendor/jquery.js"></script>
+    <script src="/vendor/dropzone.js"></script>
+    <script src="/vendor/select2.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.scss.css">
+  </head>
+  <body>
+    <script type="text/javascript">Dropzone.autoDiscover = false;
+    </script>
+    <div class="fixed-top">
+      <div id="alert-container" class="container">
+        <script type="text/javascript">
+          $(function(){
+            show_messages([]);
+          })
+        </script>
+        <div class="alert alert-dismissible fade show template" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          <div class="container">
+            <span class="alert-msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="head">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <div>
+              <span class="head-text">in-toto layout</span>
+              <span class="head-beta"><a href="https://github.com/in-toto/layout-web-tool/issues">beta</a></span>
+            </div>
+            <div class="head-sub"><a href="https://in-toto.io">https://in-toto.io</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container content">
+      
+<h1>Create in-toto layout
+<small class="text-muted">and protect your software supply chain's integrity</small></h1>
+<p>An in-toto layout defines the steps of your software supply chain that you carry out in order to write, test, package and distribute your software.</p><p>This website helps you to create a basic layout for your software project, specifying who does what and how everything fits together, so that your clients can be sure that your software was produced exactly how you wanted it to be. Learn more about in-toto on our <a href="https://in-toto.github.io">project website</a> and <a href="https://github.com/in-toto/in-toto">on GitHub</a>.</p>
+
+<p>You will be asked to run a couple of in-toto commands while walking through this website, so make sure to have in-toto installed:</p>
+
+<pre class="code">
+pip install in-toto
+</pre>
+
+<hr>
+<div class="row no-gutters justify-content-center">
+  <div class="col-3">
+    <a class="btn btn-outline-primary btn-block" href="/vcs ">Start</a>
+  </div>
+</div>
+
+
+    </div>
+    <script src="/vendor/bootstrap.js"></script>
+    <script src="/vendor/html5sortable.js"></script>
+    <script src="/vendor/d3.js"></script>
+    <script src="/vendor/dagre-d3.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

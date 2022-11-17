@@ -1,0 +1,24 @@
+200 OK
+X-Content-Type-Options: nosniff
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Varnish: 439735035
+Cache-Tags: MISS
+Server: nginx/1.12.2
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+X-Drupal-Dynamic-Cache: MISS
+Last-Modified: Thu, 17 Nov 2022 16:56:54 GMT
+Etag: "1668704214"
+Vary: Cookie
+Via: 1.1 varnish-v4
+X-Powered-By: PHP/7.4.25
+Cache-Control: max-age=31536000, public
+Link: <http://engineering.nyu.edu/admissions/graduate/events>; rel="canonical" <http://engineering.nyu.edu/admissions/graduate/events>; rel="revision"
+X-Ua-Compatible: IE=edge
+Accept-Ranges: bytes
+X-Frame-Options: SAMEORIGIN
+X-Drupal-Cache: MISS
+Age: 0
+Date: Thu, 17 Nov 2022 16:56:56 GMT
+Content-Language: en
+X-Generator: Drupal 8 (https://www.drupal.org)

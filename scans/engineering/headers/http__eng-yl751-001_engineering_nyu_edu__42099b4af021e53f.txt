@@ -1,0 +1,12 @@
+200 OK
+Etag: "2d-432a5e4a73a80"
+Retry-Count: 0
+Content-Location: index.html.en
+Vary: negotiate
+Tcn: choice
+Last-Modified: Mon, 11 Jun 2007 18:53:14 GMT
+Accept-Ranges: bytes
+Content-Length: 45
+Content-Type: text/html
+Date: Thu, 17 Nov 2022 16:57:01 GMT
+Server: Apache/2.4.16 (Unix) PHP/5.5.38

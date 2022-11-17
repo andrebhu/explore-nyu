@@ -1,0 +1,13 @@
+200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Last-Modified: Thu, 17 Nov 2022 16:16:48 GMT
+Pragma: public
+Content-Type: text/html; charset=UTF-8
+Link: <https://c2smart.engineering.nyu.edu/wp-json/>; rel="https://api.w.org/" <https://c2smart.engineering.nyu.edu/wp-json/wp/v2/pages/138>; rel="alternate"; type="application/json" <https://c2smart.engineering.nyu.edu/>; rel=shortlink
+Cache-Control: max-age=1184, public
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Thu, 17 Nov 2022 16:57:04 GMT
+X-Powered-By: PHP/7.4.30
+Etag: "bc959ef097674717ad875e0a73a41880"
+Retry-Count: 0
+Vary: Accept-Encoding

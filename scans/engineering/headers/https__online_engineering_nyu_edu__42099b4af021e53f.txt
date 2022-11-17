@@ -1,0 +1,24 @@
+200 OK
+X-Powered-By: PHP/7.4.25
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Generator: Drupal 8 (https://www.drupal.org)
+Server: nginx/1.12.2
+Content-Type: text/html; charset=UTF-8
+Cache-Tags: MISS
+Cache-Control: max-age=31536000, public
+Link: <http://engineering.nyu.edu/academics/departments/nyu-tandon-online>; rel="canonical" <http://engineering.nyu.edu/academics/departments/nyu-tandon-online>; rel="revision"
+Vary: Cookie
+X-Drupal-Cache: HIT
+X-Varnish: 439735261
+Date: Thu, 17 Nov 2022 16:57:19 GMT
+Retry-Count: 0
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Etag: "1668701302"
+Last-Modified: Thu, 17 Nov 2022 16:08:22 GMT
+Age: 0
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,25 @@
+200 OK
+Content-Length: 87593
+Link: <http://engineering.nyu.edu/admissions/graduate>; rel="canonical" <http://engineering.nyu.edu/admissions/graduate>; rel="revision"
+X-Ua-Compatible: IE=edge
+X-Drupal-Cache: HIT
+Age: 56578
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+Server: nginx/1.12.2
+X-Varnish: 439735063 446982742
+Last-Modified: Wed, 16 Nov 2022 18:01:28 GMT
+Date: Thu, 17 Nov 2022 16:57:02 GMT
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/7.4.25
+X-Drupal-Dynamic-Cache: HIT
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Etag: "1668621688"
+Vary: Cookie
+Retry-Count: 0
+Cache-Control: max-age=31536000, public
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 8 (https://www.drupal.org)
+Cache-Tags: HIT

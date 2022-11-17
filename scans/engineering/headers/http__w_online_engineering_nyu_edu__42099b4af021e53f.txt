@@ -1,0 +1,22 @@
+200 OK
+Content-Type: text/html
+Age: 32818
+Etag: "de14370c4b906cd8038a7dddca2130cb"
+Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests; object-src 'none'; script-src 'sha256-7/fy7EjXUskn9MLHbin/b0A7LQ32mACPQ2SdNj/O/vA=' 'unsafe-inline'; require-trusted-types-for 'script';
+Strict-Transport-Security: max-age=31536000
+Date: Thu, 17 Nov 2022 07:49:58 GMT
+Engine: Rebrandly.redirect, version 2.1
+X-Amz-Cf-Pop: IAD55-P5
+Retry-Count: 0
+Content-Length: 3763
+Via: 1.1 5d1a51a1eb09caa5b28051dd961c7c40.cloudfront.net (CloudFront)
+Last-Modified: Tue, 05 Jul 2022 08:14:45 GMT
+Accept-Ranges: bytes
+X-Amz-Server-Side-Encryption: AES256
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Server: AmazonS3
+X-Amz-Version-Id: fxAMz881WWHGTyp1_Q55Qn.iuLJOqR1n
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: l5WTeB0cLfINVjoIV4kcgL-jXw09V1xHkdw35-wYji-sBqb1FKDR2w==
+X-Content-Type-Options: nosniff
