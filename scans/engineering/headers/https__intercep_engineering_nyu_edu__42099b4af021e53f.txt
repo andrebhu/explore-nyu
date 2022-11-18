@@ -1,9 +1,0 @@
-404 Not Found
-Set-Cookie: crumb=Bd2hoyJdERjNNTRjZTk0NzY5N2QwY2E1N2RhYzc1NDYzNTU5MGUz;Path=/
-X-Contextid: eZ3cI4Cx/V0mJUnX7
-Retry-Count: 0
-Age: 0
-Content-Length: 3058
-Content-Type: text/html;charset=utf-8
-Date: Thu, 17 Nov 2022 16:57:02 GMT
-Server: Squarespace

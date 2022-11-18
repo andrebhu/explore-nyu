@@ -1,9 +1,0 @@
-200 OK
-Retry-Count: 0
-Content-Type: text/html; charset=UTF-8
-Date: Thu, 17 Nov 2022 16:57:13 GMT
-Server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips PHP/7.4.30
-Last-Modified: Wed, 01 Feb 2017 20:11:06 GMT
-Etag: "0-5477da60e6a80"
-Accept-Ranges: bytes
-Content-Length: 0

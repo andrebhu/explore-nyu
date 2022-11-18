@@ -1,8 +1,0 @@
-403 Forbidden
-Date: Thu, 17 Nov 2022 16:56:55 GMT
-Server: AmazonS3
-Content-Length: 454
-Retry-Count: 0
-X-Amz-Request-Id: SEZ7V8YD2ZGY36VB
-X-Amz-Id-2: fsLYu4QliErOpQnJpHfA+lWyb60xurZ4XQm80jidOu9XR4LVVtkl+A5J6Wduv+Ewc+niwrGsLKM=
-Content-Type: text/html; charset=utf-8

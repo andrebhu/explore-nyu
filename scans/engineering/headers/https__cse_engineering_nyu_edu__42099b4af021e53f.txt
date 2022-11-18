@@ -1,9 +1,0 @@
-200 OK
-Last-Modified: Tue, 06 Nov 2018 16:48:37 GMT
-Etag: "e7-57a01c5ecae46"
-Accept-Ranges: bytes
-Content-Length: 231
-Retry-Count: 0
-Content-Type: text/html; charset=UTF-8
-Date: Thu, 17 Nov 2022 16:57:15 GMT
-Server: Apache/2.4.6

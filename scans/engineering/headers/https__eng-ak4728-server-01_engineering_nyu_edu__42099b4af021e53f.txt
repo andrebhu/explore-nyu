@@ -1,7 +1,0 @@
-502 Bad Gateway
-Retry-Count: 0
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-Server: nginx/1.10.3 (Ubuntu)
-Date: Thu, 17 Nov 2022 16:57:23 GMT
-Content-Type: text/html
-Content-Length: 584

@@ -1,8 +1,0 @@
-200 OK
-Server: nginx/1.14.0 (Ubuntu)
-Date: Thu, 17 Nov 2022 16:57:09 GMT
-Retry-Count: 0
-Vary: Cookie
-Content-Type: text/html; charset=utf-8
-X-Frame-Options: SAMEORIGIN
-Set-Cookie: csrftoken=AtobrzF4LVJTHPQE3rVTt2wcXB7Q2n6D; expires=Thu, 16-Nov-2023 16:57:09 GMT; Max-Age=31449600; Path=/ sessionid=v6vr13p09rlf2frkgmicanhrfb32capq; httponly; Path=/

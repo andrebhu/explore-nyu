@@ -1,9 +1,0 @@
-200 OK
-Last-Modified: Tue, 06 Apr 2021 01:02:11 GMT
-Content-Length: 383
-Retry-Count: 0
-Date: Thu, 17 Nov 2022 22:08:20 GMT
-Server: lighttpd/1.4.31
-Content-Type: text/html
-Accept-Ranges: bytes
-Etag: "2020371961"

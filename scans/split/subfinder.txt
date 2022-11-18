@@ -1,0 +1,9 @@
+esb-aws.split.nyu.edu
+ldcsa.shanghai.split.nyu.edu
+home.split.nyu.edu
+shibboleth.split.nyu.edu
+pwm-lb-prod.split.nyu.edu
+udarapps.split.nyu.edu
+bpasprod-aws.split.nyu.edu
+faswebserver.split.nyu.edu
+wso2-alb-prod.split.nyu.edu

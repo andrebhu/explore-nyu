@@ -1,7 +1,0 @@
-200 OK
-Date: Thu, 17 Nov 2022 16:57:16 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Vary: Cookie,Accept-Encoding
-Set-Cookie: session=eyJjc3JmX3Rva2VuIjp7IiBiIjoiWm1ReVl6RTJPVFUzT0RjNU9ERXpNell5WTJOaVpUY3labVJtT0dRMlkyWTBZMkl6WVRFek9BPT0ifSwiaWQiOnsiIHUiOiIzYjk1MDA4MmRmZTc0MGU5OTc4ODQ1ZDk0MjcxYThjMyJ9fQ.Flf5bA.UONyioR3Fk1JS4QJItPyuW2sT5k; HttpOnly; Path=/
-Retry-Count: 0
-Content-Type: text/html; charset=utf-8

@@ -1,7 +1,0 @@
-200 OK
-Server: Solstice 2.0
-Last-Modified: Thu, 17 Nov 2022 21:23:34 GMT
-Retry-Count: 0
-Content-Length: 469
-Content-Type: text/html
-Date: Thu, 17 Nov 2022 21:23:34 GMT

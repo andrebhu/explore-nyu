@@ -1,7 +1,0 @@
-200 OK
-Upgrade: h2,h2c
-Retry-Count: 0
-Content-Type: text/html; charset=UTF-8
-Date: Thu, 17 Nov 2022 16:56:54 GMT
-Server: Apache
-Link: <https://makerspace.engineering.nyu.edu/wp-json/>; rel="https://api.w.org/", <https://makerspace.engineering.nyu.edu/wp-json/wp/v2/pages/3474>; rel="alternate"; type="application/json", <https://makerspace.engineering.nyu.edu/>; rel=shortlink

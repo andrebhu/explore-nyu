@@ -1,9 +1,0 @@
-200 OK
-Content-Type: text/html; charset=utf-8
-X-Frame-Options: SAMEORIGIN
-Connection: Keep-Alive
-Retry-Count: 0
-Cache-Control: no-cache
-Pragma: no-cache
-Date: Thu, 17 Nov 2022 21:48:50 GMT
-Set-Cookie: webvpn=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure webvpn_as=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure webvpn_portal=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure webvpnSharePoint=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure samlPreauthSessionHash=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure acSamlv2Token=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure acSamlv2Error=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure webvpnlogin=1; path=/; secure
