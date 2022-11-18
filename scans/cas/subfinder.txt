@@ -1,0 +1,8 @@
+bulletin.cas.nyu.edu
+wins.cas.nyu.edu
+map.cas.nyu.edu
+cas.nyu.edu
+portal.cas.nyu.edu
+portalqa.cas.nyu.edu
+core.cas.nyu.edu
+bachmast.cas.nyu.edu

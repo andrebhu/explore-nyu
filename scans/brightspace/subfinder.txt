@@ -1,0 +1,4 @@
+coursesetup.brightspace.nyu.edu
+coursesetup.brightspace.nyu.edu
+coursesetup.brightspace.nyu.edu
+kaf-dev.brightspace.nyu.edu

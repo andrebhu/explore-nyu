@@ -1,0 +1,15 @@
+files.otss.admin.nyu.edu
+cxns.otss.admin.nyu.edu
+citrix.otss.admin.nyu.edu
+dev.otss.admin.nyu.edu
+jss.otss.admin.nyu.edu
+integration.otss.admin.nyu.edu
+api.otss.admin.nyu.edu
+webfarm.otss.admin.nyu.edu
+docker.otss.admin.nyu.edu
+cxnsf.otss.admin.nyu.edu
+demo.otss.admin.nyu.edu
+apps.otss.admin.nyu.edu
+qa.otss.admin.nyu.edu
+web.otss.admin.nyu.edu
+worklink.otss.admin.nyu.edu
